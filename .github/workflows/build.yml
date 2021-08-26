@@ -31,4 +31,4 @@ jobs:
           java-version: 8
       - name: check code
         run: |
-          gradle ktlint
+          gradle ktlintCheck
